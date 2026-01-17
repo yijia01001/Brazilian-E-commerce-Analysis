@@ -2,11 +2,11 @@
 
 ## 📊 项目概述
 
-这是一个完整的电商数据分析项目，基于巴西电商平台 Olist 的真实数据集进行多维度分析，展示从数据清洗到可视化展示的完整数据分析流程。
+这是一个完整的电商数据分析项目，通过对巴西电商平台Olist的数据进行多维度分析，了解Olist的运营状况、用户画像、物流配送效率等关键指标，为Olist的后续发展方向提供业务建议。
 
 ## 🎯 项目目标
 
-- 分析电商业务关键指标（销售额、订单量、客户行为等）
+- Olist 2016-2018年整体销售情况（订单量、销售额、客户行为等）
 - 识别高价值客户和产品类别
 - 评估物流配送效率
 - 分析客户满意度和评价趋势
@@ -28,7 +28,7 @@ Brazilian E-commerce Analysis/
 │   ├── olist_sellers_dataset.csv
 │   ├── olist_geolocation_dataset.csv
 │   └── product_category_name_translation.csv
-├── sql/                                            # SQL分析脚本
+├── analysis sql/                                   # SQL分析脚本
 │   ├── 01_data_exploration.sql
 │   ├── 02_sales_analysis.sql
 │   ├── 03_customer_analysis.sql
@@ -40,7 +40,7 @@ Brazilian E-commerce Analysis/
 │   ├── 03_exploratory_analysis.ipynb
 │   ├── 04_advanced_analytics.ipynb
 │   └── 05_visualizations.ipynb
-└──  outputs/                                        # 输出结果
+└──  outputs/                                       # 输出结果
     ├── charts/                                     # 图表文件
     ├── reports/                                    # 分析报告
     └── cleaned_data/                               # 清洗后的数据
@@ -95,25 +95,21 @@ Kaggle - Brazilian E-Commerce Public Dataset by Olist
 
 ### 2. 客户分析
 - 客户地域分布
-- 客户价值分层（RFM模型）
 - 复购率分析
+- 客户价值分层（RFM模型）
 - 客户生命周期价值（CLV）
 
 ### 3. 产品分析
 - 热门产品类别
 - 产品价格分析
-- 产品评分分析
-- 库存周转分析
 
 ### 4. 物流分析
 - 配送时间分析
 - 配送时效vs承诺时效
-- 地理位置对配送的影响
 
 ### 5. 评价分析
 - 评价分数分布
 - 评价趋势分析
-- 负面评价原因分析
 
 ## 💡 业务洞察
 - 更偏向一次性交易平台，单纯拉新难以形成可持续增长，建议在首次购买后尽早触发二次购买激励，针对高 RFM 客户设计会员与忠诚度计划
